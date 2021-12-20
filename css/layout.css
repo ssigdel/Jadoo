@@ -1,0 +1,31 @@
+.main-wrapper {
+  margin: 2% 5%;
+}
+
+body {
+  overflow-x: hidden;
+}
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.heading {
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  font-size: 3rem;
+}
+
+.subheading {
+  font-family: "Poppins", sans-serif;
+  color: #5e6282;
+}

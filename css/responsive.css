@@ -1,0 +1,342 @@
+/* Mobile first Approach */
+
+/* tablet view */
+@media screen and (min-width: 576px) {
+  /* service section */
+  .service-category {
+    margin: 5%;
+    width: 40%;
+  }
+  .service-category {
+    float: left;
+  }
+
+  .service-categories:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  /* logo section */
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .logo-container:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+
+  /* footer section */
+  .company-desc,
+  .outbound,
+  .footer-navs {
+    float: left;
+    width: 23%;
+    margin: 5%;
+  }
+
+  .nav-row-1,
+  .nav-row-2,
+  .nav-row-3 {
+    float: left;
+    margin: 5%;
+  }
+
+  .footer-navs:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+
+  .footer-navs {
+    float: left;
+  }
+
+  .footer:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+}
+
+/*small laptop screen view */
+@media screen and (min-width: 768px) {
+  .nav-items {
+    display: block;
+    float: right;
+    margin-top: 1%;
+  }
+
+  .nav-items ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #212832;
+  }
+
+  .nav-items ul li {
+    display: inline-block;
+    padding-right: 2.3rem;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #212832;
+  }
+
+  .nav-items ul li a:hover {
+    color: yellowgreen;
+  }
+
+  .nav-items button {
+    background: transparent;
+    font-size: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #212832;
+    padding: 0.2rem;
+  }
+
+  .nav-items button:hover {
+    background: #555;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  .header:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  .hero-content {
+    margin-top: 3%;
+  }
+
+  .desc {
+    float: left;
+    width: 30%;
+    text-align: left;
+    margin: 5%;
+  }
+
+  .hero-content-image {
+    float: right;
+    width: 50%;
+    margin: 0 5%;
+  }
+
+  .hero-content {
+    margin-top: 5%;
+  }
+
+  .hero-content:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+
+  .hero-content-buttons button,
+  .hero-content-buttons .play-button {
+    float: left;
+    width: 40%;
+    margin: 5%;
+  }
+}
+
+/* large screen view  */
+@media screen and (min-width: 1100px) {
+  /* hero section */
+  .desc {
+    float: left;
+    margin: 5%;
+    width: 35%;
+  }
+  .hero-content-image {
+    width: 45%;
+    float: right;
+    margin: 0 5%;
+  }
+
+  .hero-content {
+    margin-top: 5%;
+  }
+
+  .hero-content:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  /* service section */
+
+  .service-decore {
+    display: block;
+    float: right;
+    margin-top: -5%;
+    margin-right: 2%;
+    width: 10%;
+  }
+
+  .service-category {
+    float: left;
+    margin: 0 2.5%;
+    width: 20%;
+  }
+
+  .service-categories:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  /* destination section */
+
+  .destination-card {
+    float: left;
+    margin: 0 4%;
+    width: 25%;
+  }
+
+  .destination-cards:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+
+  /* book-trip section */
+  .book-trip-text,
+  .book-trip-heading {
+    text-align: start;
+  }
+
+  .book-trip-card {
+    float: left;
+    margin: 5%;
+    width: 40%;
+  }
+
+  .values {
+    float: left;
+    margin: 5%;
+    width: 40%;
+  }
+
+  .book-trip:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+
+  /* testimonial section */
+  .testimonial-text,
+  .testimonial-heading {
+    text-align: start;
+  }
+
+  .ellipse {
+    float: left;
+    margin-top: 10%;
+  }
+
+  .pagination {
+    float: right;
+  }
+
+  .testimonial:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  /* logo section */
+
+  .logo {
+    float: left;
+    margin: 0 5%;
+    width: 10%;
+  }
+
+  .logo-container {
+    margin: 2%;
+  }
+
+  .logo-container:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+
+  /* subscribe section */
+  .email-section {
+    margin-bottom: 5%;
+  }
+
+  .subscribe p {
+    font-size: 1.5rem;
+  }
+
+  /* footer section */
+  .nav-row-1,
+  .nav-row-2,
+  .nav-row-3 {
+    float: left;
+    width: 25%;
+    margin: 3%;
+  }
+
+  .footer-navs {
+    margin-top: 0;
+  }
+
+  .footer-navs:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+
+  .footer-navs ul li {
+    font-size: 18px;
+  }
+
+  .company-desc {
+    width: 15%;
+  }
+
+  .footer-navs {
+    width: 40%;
+  }
+
+  .outbound {
+    width: 15%;
+  }
+
+  .company-desc,
+  .footer-navs,
+  .outbound {
+    float: left;
+    margin: 0 5%;
+  }
+
+  .company-desc p {
+    font-size: 13px;
+  }
+
+  .footer:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+
+  .copyright {
+    font-size: 14px;
+    text-align: center;
+  }
+}
