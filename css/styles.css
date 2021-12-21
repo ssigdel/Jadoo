@@ -5,7 +5,7 @@
 /* pre-defined classes for multiple uses */
 
 .top-margin {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 /* hero content */
@@ -167,7 +167,7 @@
 }
 
 .value-text p {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: light;
 }
 

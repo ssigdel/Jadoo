@@ -224,9 +224,25 @@
   }
 
   .values {
+    text-align: left;
     float: left;
     margin: 5%;
     width: 40%;
+  }
+
+  .value img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .value:after {
+    content: "";
+    clear: left;
+    display: block;
+  }
+
+  .value {
+    margin-bottom: 5%;
   }
 
   .book-trip:after {
